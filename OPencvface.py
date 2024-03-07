@@ -35,7 +35,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Release the webcam
+# Release the webcam and also releases the video capture feed and history
 cap.release()
 #close all OpenCV windows
 cv2.destroyAllWindows()
